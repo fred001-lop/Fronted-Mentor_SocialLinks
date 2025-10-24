@@ -20,7 +20,7 @@ body{
 .container{
     background-color: hsl(0, 0%, 12%);
     padding: 2rem;
-    width: 400px;
+    width: 370px;
     height: 600px;
     border-radius: 20px;
     text-align: center;
@@ -28,7 +28,8 @@ body{
 
 .img{
     border-radius: 50%;
-    width: 6rem;
+    width: 90px;
+    height: 90px;
     margin-top: 0.5rem;
     object-fit: cover;
 }
@@ -44,4 +45,35 @@ body{
     color: hsl(75, 94%, 57%);
     font-size: 0.875rem;
     margin-bottom: 1.5rem;
+}
+
+.parag{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.785rem;
+    margin-bottom: 1rem;
+}
+
+
+.profile-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;  
+    margin-top: 2rem;
+}
+
+.profile-links a{
+    display: block;
+    padding: 0.8rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.profile-links a:hover{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(75, 94%, 57%);
 }
